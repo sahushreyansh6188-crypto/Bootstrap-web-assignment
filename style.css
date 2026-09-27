@@ -1,0 +1,112 @@
+#Hero {
+
+    background-image: url('bg-image.png');
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Hero h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#Hero p {
+    font-weight: lighter;
+    text-align: center;
+}
+
+#Hero section section {
+    display: flex;
+    justify-content: center;
+}
+
+#Hero section section button {
+    background-color: #7cc576;
+    align-items: center;
+    color: #fff;
+    padding: 5px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#Hero section section button:hover {
+    background-color: #fff;
+    color: #7cc576;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav span {
+    gap: 25px;
+    display: flex;
+}
+
+.nav_bt {
+    color: #000;
+    background-color: #fff;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_bt:hover {
+    color: #7cc576;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: #524d53;
+    color: #f0f0f0;
+}
+
+#services {
+    width: 100%;
+    height: 200vh;
+    background-color: #524d53;
+    color: #f0f0f0;
+}
+
+#portfolio {
+    width: 100%;
+    height: 100vh;
+    background-color: #524d53;
+}
+
+/* #team {
+    width: 100%;
+    height: 150vh;
+} */
+
+#contact {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px;
+}
+
