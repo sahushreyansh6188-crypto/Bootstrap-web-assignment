@@ -60,9 +60,10 @@ nav {
     z-index: 100;
     background-color: #f0f0f0;
 }
-.mobile_only{
+.mobile_only,.brand{
     display: none;
 }
+
 
 
 nav span {
@@ -130,9 +131,10 @@ nav span {
     .mobile_only{
         display: block;
     }
-}
-@media screen and (max-width:500px) {
-    .p{
-        display: none;
+    nav{
+        justify-content: space-between;
+        padding: 0 40px;
     }
+    
 }
+
