@@ -60,6 +60,9 @@ nav {
     z-index: 100;
     background-color: #f0f0f0;
 }
+.mobile_only{
+    display: none;
+}
 
 
 nav span {
@@ -82,25 +85,25 @@ nav span {
 
 #about {
     width: 100%;
-    height: 100vh;
+    height: auto;
     color: #524d53;
     background-color: #fff;
 }
 
 #services {
     width: 100%;
-    height: 200vh;
+    height: auto;
     color: #524d53;
     background-color: #fff;
 }
 
 #portfolio {
     width: 100%;
-    height: 120vh;
+    height: auto;
     color: #524d53;
-display: flex;
-align-items: end;
-justify-content: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
 
 /* #team {
@@ -118,4 +121,18 @@ justify-content: center;
     flex-direction: column;
     gap: 15px;
     padding: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav_bt{
+        display: none;
+    }
+    .mobile_only{
+        display: block;
+    }
+}
+@media screen and (max-width:500px) {
+    .p{
+        display: none;
+    }
 }
